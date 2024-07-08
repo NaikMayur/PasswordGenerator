@@ -114,35 +114,43 @@ export default function App() {
                 </View>
                 <View style={styles.inputWrapper}>
                   <Text style={styles.heading}>Include Uppercase letters</Text>
-                  <BouncyCheckbox
-                    isChecked={upperCase}
-                    onPress={() => setUpperCase(!upperCase)}
-                    fillColor="#FED85D"
-                  />
+                  <Text>
+                    <BouncyCheckbox
+                      isChecked={upperCase}
+                      onPress={() => setUpperCase(!upperCase)}
+                      fillColor="#FED85D"
+                    />
+                  </Text>
                 </View>
                 <View style={styles.inputWrapper}>
                   <Text style={styles.heading}>Include Lowercase letters</Text>
-                  <BouncyCheckbox
-                    isChecked={lowerCase}
-                    onPress={() => setLowerCase(!lowerCase)}
-                    fillColor="#8AC6D1"
-                  />
+                  <Text>
+                    <BouncyCheckbox
+                      isChecked={lowerCase}
+                      onPress={() => setLowerCase(!lowerCase)}
+                      fillColor="#8AC6D1"
+                    />
+                  </Text>
                 </View>
                 <View style={styles.inputWrapper}>
                   <Text style={styles.heading}>Include Numbers</Text>
-                  <BouncyCheckbox
-                    isChecked={numbers}
-                    onPress={() => setNumbers(!numbers)}
-                    fillColor="#C9A0DC"
-                  />
+                  <Text>
+                    <BouncyCheckbox
+                      isChecked={numbers}
+                      onPress={() => setNumbers(!numbers)}
+                      fillColor="#C9A0DC"
+                    />
+                  </Text>
                 </View>
                 <View style={styles.inputWrapper}>
                   <Text style={styles.heading}>Include Symbols</Text>
-                  <BouncyCheckbox
-                    isChecked={symbols}
-                    onPress={() => setSymbols(!symbols)}
-                    fillColor="#FC80A5"
-                  />
+                  <Text>
+                    <BouncyCheckbox
+                      isChecked={symbols}
+                      onPress={() => setSymbols(!symbols)}
+                      fillColor="#FC80A5"
+                    />
+                  </Text>
                 </View>
                 <View style={styles.formActions}>
                   <TouchableOpacity
